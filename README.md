@@ -24,8 +24,8 @@ to open up `todo/todo.html` and see TodoMVC with the debugger:
 
 ```shell
 cd todo
-elm-get install
-elm --make --only-js Todo.elm
+elm-package install
+elm-make Todo.elm
 cd ..
 ```
 
